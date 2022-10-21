@@ -1,0 +1,22 @@
+{
+    "name": "test-aboudou",
+    "version": "A.A.0",
+    "description": "Equad's test for El-haire ABOUDOU",
+    "main": "",
+    "scripts": {
+        "cy:open": "npx cypress open",
+        "cy:run": "npx cypress run",
+        "cy:run:head": "npx cypress run --headed"
+    },
+    "keywords": [
+        "cypress"
+    ],
+    "author": "El-haire ABOUDOU",
+    "license": "ISC",
+    "devDependencies": {
+        "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+        "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+        "cypress": "^10.10.0",
+        "esbuild": "^0.15.11"
+    }
+}
